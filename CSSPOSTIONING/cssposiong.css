@@ -1,1 +1,40 @@
- 
+.container {
+    height: auto;
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+   background-color: black ;
+}
+.item {
+      height: 50px;
+      width: 50px;
+      margin: 10px;
+      background-color: red;
+      color: whitesmoke;
+}
+.one>.four {
+    background-color:skyblue;
+    color: black;
+    position: absolute;  
+    left: 100px;
+    top: 100px;
+}
+.one>.five {
+    background-color: skyblue;
+    color: black;
+    position: fixed;
+    left: 100px;
+    top: 100px;
+}
+.container>.two {
+    position: sticky;
+    z-index: -10;
+    top: 30px;
+    bottom: 30px;
+}
+.item:nth-child(5n) {
+   background-color:yellow ;
+}
+.container:nth-child(2n) {
+    background-color: goldenrod;
+}
